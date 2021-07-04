@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
-:root{
+:root {
     --primary: #F2C94C;
 }
-body{
+
+body {
     margin: 0;
-    font-family: 'Kalam',cursive;
+    font-family: 'Kalam', cursive;
 }
+
 textarea {
     box-sizing: border-box;
     width: 100%;
@@ -17,12 +19,14 @@ textarea {
     border-radius: 1rem;
     margin-top: 1rem;
 }
-main{
+
+main {
     margin: auto;
     padding: 1rem;
     max-width: 800px;
 }
-button{
+
+button {
     background-color: var(--primary);
     border: none;
     margin-top: 2rem;
@@ -42,24 +46,27 @@ button{
     margin-top: 2rem;
     background-color: white;
 }
-nav{
+
+nav {
     background-color: var(--primary);
     text-align: center;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-footer{
-    position:fixed;
+
+footer {
+    position: fixed;
     bottom: 0;
     text-align: center;
     background-color: var(--primary);
-    width: 100%; 
+    width: 100%;
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-footer p{
+
+footer p {
     max-width: 800px;
     margin: auto;
     padding-right: 2rem;
