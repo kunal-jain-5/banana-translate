@@ -54,6 +54,8 @@ footer{
     width: 100%;
     bottom: 0;
     padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 footer p{
     max-width: 600px;
